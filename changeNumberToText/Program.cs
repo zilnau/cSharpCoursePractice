@@ -5,6 +5,7 @@ class Program
 
     static void Main()
     {
+        // TODO : keiskite FROM..TO skaicius pagal tai kiek spesite padaryt uzduociu. (-19...19, -99..99, ir tt.)
         // min skaicius 
         const int FROM_NUMBER = -9;
         // max skaicius 
@@ -35,17 +36,17 @@ class Program
             {
                 Console.WriteLine("Ivesti duomenys:{0} nera skaicius!", inputString);
             }
-
         }
 
         Console.WriteLine("\nAciu uz demesi, viso gero.");
         Console.ReadKey();
     }
 
-    // funkcija gauna int skaiciu, pakeicia ji i string teksta kuri zodziais nusako skaiciu. PVZ: -1684542 turi grazint - "minus vienas milijonas sesi simtai astuoniasdesimt keturi tukstanciai penki simtai keturiasdiasimt du"
+    // bendra funkcija apjungti visom funkcijom kurias jus sukursit.
     static string changeNumberToText(int number)
     {
-        throw new Exception("TODO: grazinkite skaiciu zodziais.");
+        // TODO : pakeiskite sita funkcija pagal savo poreiki. (tiek kiek skaiciu spesite apdorot.)
+        return changeOnesToText(number);
     }
 
     // funkcija gauna string skaiciu, patikrina ar skaicius teisingu formatu. Pvz: "123", "-123" grazina true. "12a3", "1-23" grazina false.
@@ -60,7 +61,26 @@ class Program
         throw new Exception("TODO: Patikrinkite ar checkNumber yar tarp skaiciu fromNumber,  toNumber");
     }
 
+    // funkcija gauna int skaiciu, pakeicia ji i string teksta kuri zodziais nusako skaiciu. PVZ: -1684542 turi grazint - "minus vienas milijonas sesi simtai astuoniasdesimt keturi tukstanciai penki simtai keturiasdiasimt du"
+    static string changeOnesToText(int number)
+    {
+        throw new Exception("TODO: grazinkite skaiciu -9...9 zodziais.");
+    }
 
+    // TODO : sukurti funkcija kuri grazina skaiciu -19...19 zodziais - changeTeensToText
+
+    // TODO : sukurti funkcija kuri grazina skaiciu -99...99 zodziais - changeTensToText
+
+    // TODO : sukurti funkcija kuri grazina skaiciu -999...999 zodziais - changeHundredsToText
+
+    // TODO : sukurti funkcija kuri grazina skaiciu -9999...9999 zodziais - changeThousandsToText
+
+    // TODO : sukurti funkcija kuri grazina skaiciu -9999999...9999999 zodziais - changeMillionsToText
+
+    // TODO : sukurti funkcija kuri grazina skaiciu -9999999999...9999999999 zodziais - changeBilllionsToText
+
+
+    
     //Skaiciai zodziais:  
     // "minus"; 
     // "nulis", "vienas", "du", "trys", "keturi", "penki", "sesi", "septyni", "astuoni", "devyni"; 
