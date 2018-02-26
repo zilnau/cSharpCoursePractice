@@ -33,7 +33,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("Ivestas skaicius {0} yra NEteisingas. Klaida!", inputString);
+                Console.WriteLine("Ivesti duomenys:{0} nera skaicius!", inputString);
             }
 
         }
