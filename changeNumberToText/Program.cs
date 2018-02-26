@@ -52,19 +52,19 @@ class Program
     // funkcija gauna string skaiciu, patikrina ar skaicius teisingu formatu. Pvz: "123", "-123" grazina true. "12a3", "1-23" grazina false.
     static bool checkIfGoodNumber(string dataToCheck)
     {
-        throw new Exception("TODO: grazinkite true, jei tekstas yra teisingas skaicius.");
+        throw new NotImplementedException("TODO: grazinkite true, jei tekstas yra teisingas skaicius.");
     }
 
     // funkcija gauna true jei skaicius checkNumber yar tarp fromNumber ir toNumber (imtinai)
     private static bool checkIfNumberInRange(int fromNumber, int toNumber, int checkNumber)
     {
-        throw new Exception("TODO: Patikrinkite ar checkNumber yar tarp skaiciu fromNumber,  toNumber");
+        throw new NotImplementedException("TODO: Patikrinkite ar checkNumber yar tarp skaiciu fromNumber,  toNumber");
     }
 
     // funkcija gauna int skaiciu, pakeicia ji i string teksta kuri zodziais nusako skaiciu. PVZ: -1684542 turi grazint - "minus vienas milijonas sesi simtai astuoniasdesimt keturi tukstanciai penki simtai keturiasdiasimt du"
     static string changeOnesToText(int number)
     {
-        throw new Exception("TODO: grazinkite skaiciu -9...9 zodziais.");
+        throw new NotImplementedException("TODO: grazinkite skaiciu -9...9 zodziais.");
     }
 
     // TODO : sukurti funkcija kuri grazina skaiciu -19...19 zodziais - changeTeensToText
@@ -80,7 +80,7 @@ class Program
     // TODO : sukurti funkcija kuri grazina skaiciu -9999999999...9999999999 zodziais - changeBilllionsToText
 
 
-    
+
     //Skaiciai zodziais:  
     // "minus"; 
     // "nulis", "vienas", "du", "trys", "keturi", "penki", "sesi", "septyni", "astuoni", "devyni"; 
