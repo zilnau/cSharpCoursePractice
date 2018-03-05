@@ -7,6 +7,22 @@ class Program
     {
         findMagicNumber();
         //printMineSweeperNumbers();
+
+
+        string[,] names;
+
+        int[][] scores;
+
+         = 8;
+
+        Console.WriteLine(scores[0][2]);
+
+        int[] numbers = new int[] { 12, 98, -12, 65, 12 };
+        foreach (int item in numbers)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
     }
 
     private static void findMagicNumber()
